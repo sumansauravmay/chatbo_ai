@@ -51,7 +51,7 @@ const Chatbot = () => {
     };
     axios
       .post(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${process.env.API_KEY}`,
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${process.env.gemini_API_KEY}`,
         data
       )
       .then((res) => {
