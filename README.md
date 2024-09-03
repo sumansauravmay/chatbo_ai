@@ -1,8 +1,8 @@
-# DriftMart
+# Chatbot AI
 
 ## Description
 
-Welcome to the E-commerce Website Frontend repository. This project is a fully responsive e-commerce website built using React. It provides a seamless shopping experience with a modern and intuitive user interface.
+Welcome to the chatbot Website. This project is a fully responsive chatbot website built using React. We can create Avatar AI and a chatbot AI with a natural UI where interaction happens through voice.
 
 <hr/>
 
