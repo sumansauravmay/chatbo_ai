@@ -1,4 +1,4 @@
-import { Button, Stack, Text, Heading, Box, Center } from "@chakra-ui/react";
+import { Button, Stack, Text, Heading, Card, CardBody, CardHeader} from "@chakra-ui/react";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 
@@ -67,34 +67,33 @@ const Chatbot = () => {
   };
 
   return (
-    <Box mt="50px" w="80%">
-      <Center>
-        <Button
-          bg="red.500"
-          color={"white"}
-          _hover={{
+    <>
+    
+    <Card w="100%" mt='20px'
+  direction={{ base: 'column', sm: 'row' }}
+  overflow='hidden'
+  variant='outline'
+>
+  <Stack>
+<CardHeader> 
+  <Button variant='solid' colorScheme='blue'  onClick={startListening}  _hover={{
             bg: "green.500",
-          }}
-          onClick={startListening}
-        >
-          {isListening ? "Listening..." : "Start Conversation"}
-        </Button>
-      </Center>
-      <Stack mt="20px">
-        <Heading mt="20px">
-          You:
-          <Text fontSize="20px" color="green.500">
-            {transcript}
-          </Text>
-        </Heading>
-        <Heading mt="20px" w="100%">
-          Answer:
-          <Text fontSize="20px" color="blue.500">
-            <pre>{avatarResponse}</pre>
-          </Text>
-        </Heading>
-      </Stack>
-    </Box>
+          }}>
+      {isListening ? "Listening..." : "Start Conversation"}
+      </Button>
+      </CardHeader>
+
+    <CardBody>
+      <Heading w='100%' size='md'>You: <Text fontSize='25px' color="green.500">{transcript}</Text>
+      </Heading>
+      <Heading w='100%' size='md' mt='20px'>Answer:  <Text py='2' color="blue.500">
+      {avatarResponse}
+      </Text>
+      </Heading>
+    </CardBody>
+  </Stack>
+</Card>
+    </>
   );
 };
 
