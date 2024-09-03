@@ -36,8 +36,8 @@ Check out my all the project [here](https://github.com/sumansauravmay).
 ## Technologies Used
 
 - **React**: JavaScript library for building user interfaces
-- **Gemini API**: to give the answer
-- **D-id API**: to generate avatar AI
+- **Gemini API**: To give the answer
+- **D-id API**: To generate avatar AI
 - **React Router**: Declarative routing for React
 - **Axios and Fetch**: Promise-based HTTP client for API calls
 - **Chakra UI**: For the Styling
