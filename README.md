@@ -24,8 +24,6 @@ Check out my all the project [here](https://github.com/sumansauravmay).
 
 - Frontend Deployed Link(Netlify): [https://serene-clafoutis-25da20.netlify.app/](https://serene-clafoutis-25da20.netlify.app/)
 
-- Backend Deployed Link(Render): [https://myindiaa-deployement.onrender.com/](https://myindiaa-deployement.onrender.com/)
-
 - Demo Video Link: [https://drive.google.com/file/d/1QDijii1tCsBovW-Sdwo3u7Y601_23qep/view?usp=sharing](https://drive.google.com/file/d/1QDijii1tCsBovW-Sdwo3u7Y601_23qep/view?usp=sharing)
 
 ## Features
